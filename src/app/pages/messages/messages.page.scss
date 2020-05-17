@@ -1,0 +1,72 @@
+#agora_local{
+  height: 400px;
+  width: 300px;
+  float: left;
+  margin-left: auto;
+margin-right: auto;
+--background-color: #ffffff;
+
+
+border: 2px solid ;
+> thead,
+> tbody,
+> tfoot {
+  > tr {
+    > th,
+    > td {
+      border: 1px solid ;
+    }
+  }
+}
+> thead {
+  > tr {
+    > th,
+    > td {
+      border-bottom-width: 2px;
+    }
+  }
+}
+
+
+}
+
+
+
+
+.remote-containers div{
+  height: 100px;
+  width: 100px;
+  float:left; /* add this */
+  margin-left: 170px;
+  margin-top:300px;
+margin-right: auto;
+border: 1px solid ;
+
+> thead,
+> tbody,
+> tfoot {
+  > tr {
+    > th,
+    > td {
+      border: 1px solid ;
+    }
+  }
+}
+> thead {
+  > tr {
+    > th,
+    > td {
+      border-bottom-width: 2px;
+    }
+  }
+}
+
+
+
+}
+
+.input {
+
+margin-top: 400px;
+
+}

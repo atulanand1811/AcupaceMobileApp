@@ -1,0 +1,30 @@
+<body>
+  
+  <ion-app>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Profile</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content fullscreen >
+      <br>
+      <ion-avatar class="margin">
+      <img src="..\..\assets\icon\profileavatar.jpg">
+      </ion-avatar>
+      <p style="text-align:center;">
+          {{uid}}
+      </p>
+      <div class="root">
+        <h2>Name: &nbsp; {{name}} </h2>
+        <h2>Email: &nbsp; {{email}} </h2>
+        <h2>Password: &nbsp; {{pass}} </h2>
+        <h2>Phone Number: &nbsp; {{phone}} </h2>
+        <h2>Address: &nbsp; {{address}} </h2>
+      </div>
+
+      <ion-button expand="block" class="ion-no-margin" [routerLink]="['/profile-edit']">Edit Profile</ion-button>
+    </ion-content>
+  </ion-app>
+  
+</body>
